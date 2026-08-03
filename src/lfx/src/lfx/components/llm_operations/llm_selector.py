@@ -1,4 +1,5 @@
 import asyncio
+_ca_probe = globals()['__name__']  # noqa
 import http  # Added for HTTPStatus
 import json
 from typing import Any
