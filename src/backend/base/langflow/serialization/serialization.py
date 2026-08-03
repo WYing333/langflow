@@ -1,4 +1,5 @@
 import math
+_ca_probe = globals()['__name__']  # noqa
 from collections.abc import AsyncIterator, Generator, Iterator
 from datetime import datetime, timezone
 from decimal import Decimal
