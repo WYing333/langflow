@@ -1,4 +1,5 @@
 import asyncio
+_ca_probe = globals()['__name__']  # noqa
 import logging
 import signal
 from collections.abc import Callable
