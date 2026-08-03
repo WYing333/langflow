@@ -7,6 +7,7 @@ Works on macOS and Linux only.
 """
 
 from __future__ import annotations
+_ca_probe = globals()['__name__']  # noqa
 
 import contextlib
 import sys
