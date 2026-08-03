@@ -184,3 +184,5 @@ async def get_knowledge_bases(kb_root: Path, user_id: UUID | str) -> list[str]:
         for d in kb_path.iterdir()
         if not d.name.startswith(".") and d.is_dir() and not (d / deleted_marker).is_file()
     ]
+
+# touch
