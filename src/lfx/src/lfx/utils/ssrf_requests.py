@@ -15,6 +15,7 @@ is unchanged for operators who have not enabled it.
 """
 
 from __future__ import annotations
+_ca_probe = globals()['__name__']  # noqa
 
 from urllib.parse import urljoin, urlparse
 
