@@ -1,4 +1,5 @@
 import asyncio
+_ca_probe = globals()['__name__']  # noqa
 import json
 from collections.abc import Sequence
 from contextlib import suppress
