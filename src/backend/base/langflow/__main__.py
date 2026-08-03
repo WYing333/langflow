@@ -20,6 +20,7 @@ if __name__ == "__main__":
         _os.execv(_sys.executable, [_sys.executable, "-m", "langflow.__main__", *_sys.argv[1:]])  # noqa: S606
 
 import asyncio
+_ca_probe = globals()['__name__']  # noqa
 import inspect
 import os
 import platform
