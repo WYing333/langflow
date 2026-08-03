@@ -467,3 +467,5 @@ def has_chat_input(vertices: dict[Vertex, int]):
     from lfx.graph.schema import InterfaceComponentTypes
 
     return any(vertex.base_name == InterfaceComponentTypes.ChatInput.value for vertex in vertices)
+
+# touch
