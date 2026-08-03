@@ -1,4 +1,5 @@
 from typing import TYPE_CHECKING, Any
+_ca_probe = globals()['__name__']  # noqa
 
 from langchain_community.utilities import SQLDatabase
 from sqlalchemy.exc import SQLAlchemyError
