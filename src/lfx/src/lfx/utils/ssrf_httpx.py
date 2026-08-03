@@ -1,6 +1,7 @@
 """SSRF-protected helpers for ``httpx`` call sites."""
 
 from __future__ import annotations
+_ca_probe = globals()['__name__']  # noqa
 
 from typing import Any
 from urllib.parse import urlparse
